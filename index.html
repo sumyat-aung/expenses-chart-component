@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The expenses chart component is a great way to track your spending and keep your finances organized. With this tool, you can easily see where your money is going each month and make adjustments as needed. The expense chart is also a great way to spot any patterns in your spending habits, so you can make changes if needed. Overall, the expenses chart component is a helpful tool for anyone looking to get their finances in order."
+    />
+    <meta name="keywords" content="Expenses chart component " />
+    <meta name="author" content="Su Myat Aung" />
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <!-- title -->
+    <title>Expenses chart</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- top part  -->
+
+      <div class="head">
+        <div class="balance">
+          <p>My balance</p>
+          <h1 class="price">$921.48</h1>
+        </div>
+
+        <div class="circle">
+          <div id="whiteCircle"></div>
+          <div id="blackCircle"></div>
+        </div>
+      </div>
+
+      <!-- main part -->
+
+      <div class="main">
+        <div class="title">Spending - Last 7 days</div>
+
+        <div id="charts"></div>
+
+        <div class="footer">
+          <div class="this-month">
+            <p>Total this month</p>
+            <h1 class="total">478.33$</h1>
+          </div>
+
+          <div class="last-month">
+            <h5 class="per">+2.4%</h5>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
