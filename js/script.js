@@ -58,7 +58,7 @@ for (let i = 0; i < chartsChild.length; i++) {
   chartsChild[i].addEventListener("mouseover", function () {
     amount[i].style.visibility = "visible";
   });
-  chartsChild[i].addEventListener("mouseleave", function () {
+  chartsChild[i].addEventListener("mouseout", function () {
     amount[i].style.visibility = "hidden";
   });
 
