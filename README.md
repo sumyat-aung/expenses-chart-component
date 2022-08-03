@@ -3,8 +3,8 @@
 ## Overview
 
   <h3>   Demo - URL link -
-    <a href="https://checkout-by-sumyat.netlify.app/">
-     https://colorflipper-by-sumyat.netlify.app/
+    <a href="https://expenseschart-by-sumyat.netlify.app/">
+     https://expenseschart-by-sumyat.netlify.app/
     </a>
   </h3>
 
