@@ -46,7 +46,7 @@ body {
   display: flex;
   /* background-color: transparent; */
   height: 100%;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 #whiteCircle,
@@ -122,6 +122,7 @@ body {
   padding: 2px;
   visibility: hidden;
   width: 110%;
+  transition: 0s;
 }
 
 /* styling foot part */
