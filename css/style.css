@@ -125,6 +125,7 @@ body {
   padding: 2px;
   visibility: hidden;
   width: 110%;
+  transition: 0.2s;
 }
 
 /* styling foot part */
